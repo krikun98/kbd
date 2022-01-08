@@ -1,0 +1,14 @@
+(footprint "M2-MountingHole-Standoff" (version 20210824) (generator pcbnew) (layer "F.Cu")
+  (tedit 5FE32B18)
+  (property "Sheet file" "nijuni.kicad_sch")
+  (property "Sheet name" "")
+  (fp_text reference "H8" (at 0 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 953c1a53-99d7-4bb1-a978-3093f00c8f86)
+  )
+  (fp_text value "MountingHole" (at 0 0 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b8847143-dbb8-4c0f-9767-3a2f2342058a)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 3.4) (layers *.Cu *.Mask) (tstamp d036cff4-43a4-492e-afae-bc03b64aaf33))
+)

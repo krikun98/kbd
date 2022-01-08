@@ -1,0 +1,14 @@
+(footprint "M2-ClearanceHole" (version 20210824) (generator pcbnew) (layer "F.Cu")
+  (tedit 5FE4B91D)
+  (property "Sheet file" "nijuni.kicad_sch")
+  (property "Sheet name" "")
+  (fp_text reference "H9" (at 0 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8d16462b-074b-47ee-ac39-d9b45d6ca822)
+  )
+  (fp_text value "MountingHole" (at 0 0 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ec2bcee0-b29a-4c68-8072-26a475f60117)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.4 2.4) (drill 2.4) (layers F&B.Cu *.Mask) (tstamp 1e095a9b-c218-41b8-9aaa-58d3054a77b8))
+)
