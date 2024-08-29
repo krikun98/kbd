@@ -89,9 +89,9 @@
   (pad "S1" thru_hole circle (at 5.5756 5.719) (size 1 1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 53c85f59-985c-41a8-a03e-b630da084ac5))
   (pad "S1" thru_hole circle (at 5.5756 5.9817) (size 1 1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp bdcbea67-23bb-4614-959c-242aec8a53b3))
   (pad "S1" thru_hole circle (at 5.5756 6.481) (size 1 1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 5f62ef96-7f6f-423d-bc36-8d9f4479c236))
-  (model "${KIPRJMOD}/nrfmicro.pretty/3d/USB-C-C168688.step"
+  (model "${KIPRJMOD}/../../lib/kbd/kicad-packages3D/kbd.3dshapes/HRO TYPE-C-31-M-14.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 1 180))
   )
 )
