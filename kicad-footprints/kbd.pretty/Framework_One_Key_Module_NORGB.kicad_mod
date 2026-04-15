@@ -1,0 +1,164 @@
+(footprint "Framework_One_Key_Module_NORGB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.096 8.636 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "84212fcd-92d8-4335-b099-c92cbd90d820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Framework_One_Key_Module_NORGB"
+		(at 0 10.668 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb919ca0-0672-4ceb-9ac6-2acf3aeeb80e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78bdeaf1-c9e1-4a0c-850a-1c06853f61c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ed4614b-7af9-47f1-9e85-d45c76cd05f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9.5 -9.5)
+		(end 9.5 9.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e10a16d8-3b23-49db-bb9a-021873044da7")
+	)
+	(fp_rect
+		(start -8 -8)
+		(end 8 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ea7c1f15-d5cb-464e-b151-de3006b6ab0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 12.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "faf4991c-88a2-4813-8006-c7c420a21a62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole roundrect
+		(at -9.5 -8.25 90)
+		(size 2.5 1.3)
+		(drill oval 1.7 0.5)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.45)
+		(uuid "0438f73d-8304-420f-91be-bff7d44fcf86")
+	)
+	(pad "" thru_hole roundrect
+		(at -6 9.5)
+		(size 3 1.3)
+		(drill oval 2.2 0.5)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.45)
+		(uuid "9a6bed6c-a367-49d9-be6e-93be512b53a8")
+	)
+	(pad "" thru_hole roundrect
+		(at 6 -9.5)
+		(size 3 1.3)
+		(drill oval 2.2 0.5)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.45)
+		(uuid "325d3c75-e459-4a3e-8918-ac2ced131a13")
+	)
+	(pad "" thru_hole roundrect
+		(at 9.5 8.25 90)
+		(size 2.5 1.3)
+		(drill oval 1.7 0.5)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.45)
+		(uuid "de201ca0-5d56-409c-990a-f0f7f67f9028")
+	)
+	(pad "1" smd rect
+		(at -1.42 -9 180)
+		(size 1.5 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "124cba83-9331-494b-94dc-3b63ab66e29a")
+	)
+	(pad "2" smd rect
+		(at -0.02 9 180)
+		(size 1.5 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "31bd9f22-5674-4e30-b664-5bbbb05ba224")
+	)
+	(pad "3" smd rect
+		(at -9 -5.33 90)
+		(size 1.5 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "58efdddf-c4d2-4777-ac49-0904952b2d81")
+	)
+	(pad "4" smd rect
+		(at 9 -5.33 270)
+		(size 1.5 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "1ef82a20-99f6-47a1-84d0-cb4b71de0aac")
+	)
+	(embedded_fonts no)
+	(model "/home/screamingwhale/Keyboard_projects/shobo/lib/kbd/kicad-packages3D/kbd.3dshapes/Framework_One_Key_Module.stp"
+		(offset
+			(xyz 0 0.3 -1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
